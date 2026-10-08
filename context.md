@@ -1,4 +1,4 @@
-# Context – Conference Website for ICMCCC 2027 Bilbao
+# Context – Conference Website for 3MC3 Bilbao
 
 ## Project Type
 
@@ -15,11 +15,11 @@ Conference Identity
 
 Conference name:
 
-3rd International Conference on Mineral Carbonation for Cement and Concrete
+3MC3 — International Conference on Mineral Carbonation for Cement and Concrete
 
 Short name:
 
-ICMCCC 2027
+3MC3
 
 Location:
 
@@ -27,15 +27,15 @@ Bilbao
 
 Date:
 
-September 2027
+13–15 September 2027
 
 The website must be hosted under the conference identity, not under a personal name such as Hegoi Manzano.
 
 Preferred repository or GitHub Pages name should be based on:
 
-* icmccc2027
-* mineral-carbonation-2027
-* icmccc-bilbao-2027
+* 3mc3
+* mc3-2027
+* mc3-bilbao-2027
 
 Scientific Scope
 

@@ -1,6 +1,6 @@
-# ICMCCC 2027 Bilbao Conference Website
+# 3MC3 Bilbao Conference Website
 
-Static website for the **3rd International Conference on Mineral Carbonation for Cement and Concrete**, Bilbao, September 2027.
+Static website for the **3MC3 — International Conference on Mineral Carbonation for Cement and Concrete**, Bilbao, 13–15 September 2027.
 
 ## Project Structure
 
@@ -61,13 +61,13 @@ Placeholder items that should be updated later include:
 
 ## GitHub Pages Deployment
 
-1. Create a GitHub repository with a conference-focused name, such as `icmccc2027`, `mineral-carbonation-2027`, or `icmccc-bilbao-2027`.
+1. Create a GitHub repository with a conference-focused name, such as `3mc3`, `mc3-2027`, or `mc3-bilbao-2027`.
 2. Initialize Git locally if needed:
 
    ```bash
    git init
    git add .
-   git commit -m "Create initial ICMCCC 2027 website"
+   git commit -m "Create initial 3MC3 website"
    ```
 
 3. Add the GitHub remote:
@@ -87,7 +87,7 @@ Placeholder items that should be updated later include:
 
 ## Branding
 
-The site uses the ICMCCC 2027 logo assets and palette from the provided branding image:
+The site uses the MC3 2027 logo assets and palette from the provided branding image:
 
 - Deep navy: `#0D2B45`
 - Mineral green: `#2E7D32`
