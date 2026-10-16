@@ -401,6 +401,57 @@ h3 {
   margin-bottom: 0;
 }
 
+.collaborators-section {
+  background: var(--surface);
+}
+
+.collaborator-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.collaborator-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 132px;
+  padding: 1.35rem;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 6px 18px rgba(21, 49, 76, 0.06);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.collaborator-logo:hover,
+.collaborator-logo:focus-visible {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px rgba(21, 49, 76, 0.12);
+}
+
+.collaborator-logo img {
+  display: block;
+  width: 100%;
+  max-width: 190px;
+  max-height: 72px;
+  object-fit: contain;
+}
+
+.collaborator-logo-government {
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.collaborator-logo-government span {
+  max-width: 190px;
+  color: var(--blue-grey);
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: center;
+}
+
 .card-grid,
 .committee-grid {
   display: grid;
@@ -530,6 +581,18 @@ h3 {
 .committee-back-link:hover,
 .committee-back-link:focus-visible {
   text-decoration: underline;
+}
+
+.inline-link {
+  color: var(--green);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.16em;
+}
+
+.inline-link:hover,
+.inline-link:focus-visible {
+  color: #276b2b;
 }
 
 .committee-member h3 {
@@ -709,6 +772,10 @@ h3 {
   .timeline {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .collaborator-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 640px) {
@@ -749,6 +816,15 @@ h3 {
   .committee-grid,
   .timeline {
     grid-template-columns: 1fr;
+  }
+
+  .collaborator-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .collaborator-logo {
+    min-height: 112px;
+    padding: 1rem;
   }
 
   .hero-actions,
