@@ -11,12 +11,12 @@ Static website for the **3MC3 — International Conference on Mineral Carbonatio
 │   ├── css/styles.css
 │   ├── js/main.js
 │   └── img/
-├── pages/
+├── pages/committees.html
 ├── docs/
 └── context.md
 ```
 
-The first version is a single-page conference website with sections for:
+The homepage presents the conference, with a separate organization and committees page:
 
 - Home
 - About
@@ -50,13 +50,18 @@ http://localhost:8000
 
 Most content is in `index.html`. Styling is in `assets/css/styles.css`.
 
+The conference chair, MC3 Advisory Board, and local committee are in
+`pages/committees.html`. Names and affiliations were taken from the committee CSV
+files; the HTML is edited manually and does not update automatically when a CSV
+changes. Scientific committee members will be added after availability is confirmed.
+
 Placeholder items that should be updated later include:
 
 - Final venue details
 - Abstract submission dates and portal link
 - Registration fees and deadlines
 - Speaker names, affiliations, and talk titles
-- Organizing and scientific committee members
+- Confirmed scientific committee members
 - Final contact email address
 
 ## GitHub Pages Deployment
