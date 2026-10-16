@@ -199,7 +199,7 @@ li + li {
 
 .hero-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(320px, 470px);
+  grid-template-columns: minmax(0, 0.9fr) minmax(400px, 1.1fr);
   align-items: center;
   gap: 54px;
 }
@@ -218,7 +218,7 @@ h1 {
   max-width: 850px;
   margin-bottom: 1.25rem;
   color: var(--navy);
-  font-size: 5rem;
+  font-size: 4.45rem;
   line-height: 0.98;
   font-weight: 800;
 }
@@ -302,11 +302,14 @@ h3 {
 }
 
 .hero-visual {
-  padding: 22px;
-  background: var(--white);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-visual img {
+  width: 100%;
+  transform: scale(1.08);
 }
 
 .quick-facts {
@@ -455,6 +458,11 @@ h3 {
   grid-template-columns: 0.95fr 1.05fr;
   align-items: center;
   gap: 54px;
+}
+
+.venue-intro {
+  max-width: 760px;
+  margin-left: max(20px, calc((100% - var(--container)) / 2));
 }
 
 .program-list {
@@ -677,6 +685,7 @@ h3 {
 
   .hero-visual {
     max-width: 500px;
+    margin-inline: auto;
   }
 
   .about-inline-block {
@@ -688,7 +697,7 @@ h3 {
   }
 
   h1 {
-    font-size: 3.35rem;
+    font-size: 3.1rem;
   }
 
   h2 {
@@ -724,7 +733,7 @@ h3 {
   }
 
   h1 {
-    font-size: 2.35rem;
+    font-size: 2.2rem;
   }
 
   h2 {

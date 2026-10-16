@@ -1,6 +1,6 @@
 # 3MC3 Bilbao Conference Website
 
-Static website for the **3MC3 — International Conference on Mineral Carbonation for Cement and Concrete**, Bilbao, 13–15 September 2027.
+Static website for the **3MC3 — International Conference on Mineral Carbonation for Cement and Concrete**, Bilbao, 13–16 September 2027.
 
 ## Project Structure
 
@@ -11,7 +11,9 @@ Static website for the **3MC3 — International Conference on Mineral Carbonatio
 │   ├── css/styles.css
 │   ├── js/main.js
 │   └── img/
-├── pages/committees.html
+├── pages/
+│   ├── committees.html
+│   └── venue.html
 ├── docs/
 └── context.md
 ```
