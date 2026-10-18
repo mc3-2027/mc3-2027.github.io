@@ -576,27 +576,23 @@ h3 {
 }
 
 .accommodation-grid {
-  align-items: start;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  align-items: stretch;
 }
 
 .accommodation-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
   border-top: 3px solid var(--teal);
 }
 
-.accommodation-list {
-  margin-top: 1.2rem;
-  padding: 0;
-  list-style: none;
+.accommodation-card h3 {
+  overflow-wrap: anywhere;
 }
 
-.accommodation-list li + li {
-  margin-top: 1.2rem;
-  padding-top: 1.2rem;
-  border-top: 1px solid var(--line);
-}
-
-.accommodation-list p {
-  margin-top: 0.45rem;
+.accommodation-card p {
+  flex: 1;
   font-size: 0.88rem;
 }
 
@@ -806,6 +802,7 @@ h3 {
 
   .quick-facts,
   .card-grid,
+  .accommodation-grid,
   .timeline {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -851,6 +848,7 @@ h3 {
   .quick-facts,
   .card-grid,
   .committee-grid,
+  .accommodation-grid,
   .timeline {
     grid-template-columns: 1fr;
   }

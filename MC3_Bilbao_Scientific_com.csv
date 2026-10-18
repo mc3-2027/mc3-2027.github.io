@@ -1,54 +1,55 @@
-Alejandro Fernandez-Martinez,"CNRS, Universite Grenoble Alpes",alex.fernandez-martinez@univ-grenoble-alpes.fr
-Alexander Pisch,"CNRS, Grenoble",alexander.pisch@grenoble-inp.fr
-Alexander Van Driessche,"IACT, CSIC-Universidad de Granada",alexander.vd@csic.es
-Alisa Machner,Technical University of Munich (TUM),alisa.machner@tum.de
-Anh Phan,University of Surrey,a.phan@surrey.ac.uk
-Anya Vollpracht,RWTH Aachen University,vollpracht@ibac.rwth-aachen.de
-Arezou Baba Ahmadi,Chalmers University of Technology,arezou.ahmadi@chalmers.se
-Aslam Kunhi Mohamed,IIT Madras,akm@iitm.ac.in
-Bruno Huet,Holcim Innovation Center,bruno.m.huet@holcim.com
-Christophe Labbez,"CNRS, Universite de Bourgogne",christophe.labbez@u-bourgogne.fr
-Claire Giradeau,"Chryso, Saint-Gobain",
-Edna Possan,"UNILA, Brazil",edna.possan@unila.edu.br
-Ellina Bernard,"Empa, Switzerland",ellina.bernard@empa.ch
-Enrico Masoero,Politecnico di Milano,enrico.masoero@polimi.it
-Erika La Plante,"University of California, Davis",eclaplante@ucdavis.edu
-Fabien Georget,Universite de Sherbrooke,fabien.georget@usherbrooke.ca
-Frank Winnefeld,"Empa, Switzerland",frank.winnefeld@empa.ch
-Guang Ye,TU Delft,g.ye@tudelft.nl
-Hegoi Manzano,University of the Basque Country (EHU),hegoi.manzano@ehu.eus
-Hong Wong,Imperial College London,hong.wong@imperial.ac.uk
-Hoang Nguyen,University of Oulu,hoang.nguyen@oulu.fi
-Inés García-Lodeiro,IETcc-CSIC,iglodeiro@ietcc.csic.es
-Ippei Maruyama,University of Tokyo,i.maruyama@bme.arch.t.u-tokyo.ac.jp
-Jeffrey W. Bullard,Texas A&M University,jwbullard@tamu.edu
-John L. Provis,"Paul Scherrer Institute, Switzerland",john.provis@psi.ch
-Juhyuk Moon,Seoul National University,juhyukmoon@snu.ac.kr
-Kimberly E. Kurtis,Georgia Institute of Technology,kkurtis@gatech.edu
-Klaartje de Weerdt,NTNU,klaartje.d.weerdt@ntnu.no
-Liesbeth Horckmans,VITO (Carbon4Minerals),liesbeth.horckmans@vito.be
-Maciej Zajac,Heidelberg Materials,maciej.zajac@heidelbergmaterials.com
-Malene Thostrup Pedersen,NTNU,malene.t.pedersen@ntnu.no
-Manuel Torres Carrasco,Universidad Carlos III de Madrid,matorres@ing.uc3m.es
-Marcelo Gonzalez Hormazabal,Pontificia Universidad Catolica de Chile,magonza7@ing.puc.cl
-Maria Angeles de la Torre,Universidad de Malaga,mgd@uma.es
-Marta Palacios,IETcc-CSIC,marta.palacios@ietcc.csic.es
-Miguel Angel Garcia Aranda,Universidad de Malaga,g_aranda@uma.es
-Miren Etxeberria Larrañaga,Universitat Politècnica de Catalunya (UPC),miren.etxeberria@upc.edu
-Mohend Chaouche,"CNRS, Universite Paris-Saclay (CONCERTO)",mohend.chaouche@ens-paris-saclay.fr
-Narayanan Neithalath,Arizona State University,narayanan.neithalath@asu.edu
-Neven Ukrainczyk,TU Darmstadt,ukrainczyk@wib.tu-darmstadt.de
-Nombre,Afiliación,Correo electrónico
-Paivo Kinnunen,University of Oulu,paivo.kinnunen@oulu.fi
-Patrick Juilland,Sika Technology AG,juilland.patrick@ch.sika.com
-Prannoy Suraneni,University of Miami,pxs631@miami.edu
-Romain Dupuis,"CNRS, Montpellier",romain.dupuis@umontpellier.fr
-Roman Nevshupa,IETcc-CSIC (CILANTRO),r.nevshupa@csic.es
-Ruben Snellings,KU Leuven,ruben.snellings@kuleuven.be
-Sergio Cirelli Angulo,"Universidade de Sao Paulo, Brazil",sergio.angulo@usp.br
-Susan Bernal,University of Bath,sbl30@bath.ac.uk
-Thomas Matschei,TU Braunschweig,t.matschei@ibmb.tu-bs.de
-Torben Gadt,Technical University of Munich (TUM),	torben.gaedt@tum.de
-Wang Wei,Southeast University,wang-wei@seu.edu.cn
-Xu Linglin,Tongji University,xulinglinok@hotmail.com
-Xuerun Li,BASF Construction Additives GmbH,xuerun.li@basf.com
+Alejandro Fernandez-Martinez,"CNRS, Universite Grenoble Alpes",alex.fernandez-martinez@univ-grenoble-alpes.fr,
+Alexander Pisch,"CNRS, Grenoble",alexander.pisch@grenoble-inp.fr,
+Alexander Van Driessche,"IACT, CSIC-Universidad de Granada",alexander.vd@csic.es,
+Alisa Machner,Technical University of Munich (TUM),alisa.machner@tum.de,
+Anh Phan,University of Surrey,a.phan@surrey.ac.uk,
+Anya Vollpracht,RWTH Aachen University,vollpracht@ibac.rwth-aachen.de,
+Arezou Baba Ahmadi,Chalmers University of Technology,arezou.ahmadi@chalmers.se,
+Aslam Kunhi Mohamed,IIT Madras,akm@iitm.ac.in,
+Bruno Huet,Holcim Innovation Center,bruno.m.huet@holcim.com,
+Christophe Labbez,"CNRS, Universite de Bourgogne",christophe.labbez@u-bourgogne.fr,
+Claire Giradeau,"Chryso, Saint-Gobain",claire.giraudeau@chryso.com,
+Edna Possan,"UNILA, Brazil",edna.possan@unila.edu.br,
+Ellina Bernard,"Empa, Switzerland",ellina.bernard@empa.ch,
+Enrico Masoero,Politecnico di Milano,enrico.masoero@polimi.it,
+Erika La Plante,"University of California, Davis",eclaplante@ucdavis.edu,
+Fabien Georget,Universite de Sherbrooke,fabien.georget@usherbrooke.ca,
+Frank Winnefeld,"Empa, Switzerland",frank.winnefeld@empa.ch,
+Guang Ye,TU Delft,g.ye@tudelft.nl,
+Hegoi Manzano,University of the Basque Country (EHU),hegoi.manzano@ehu.eus,
+Hong Wong,Imperial College London,hong.wong@imperial.ac.uk,
+Hoang Nguyen,University of Oulu,hoang.nguyen@oulu.fi,
+Inés García-Lodeiro,IETcc-CSIC,iglodeiro@ietcc.csic.es,
+Ippei Maruyama,University of Tokyo,i.maruyama@bme.arch.t.u-tokyo.ac.jp,
+Jeffrey W. Bullard,Texas A&M University,jwbullard@tamu.edu,
+John L. Provis,"Paul Scherrer Institute, Switzerland",john.provis@psi.ch,
+Juhyuk Moon,Seoul National University,juhyukmoon@snu.ac.kr,
+Kemal Celik,"New York University, Abu Dhabi & New York University, New York",,
+Kimberly E. Kurtis,Georgia Institute of Technology,kkurtis@gatech.edu,YES
+Klaartje de Weerdt,NTNU,klaartje.d.weerdt@ntnu.no,
+Liesbeth Horckmans,VITO (Carbon4Minerals),liesbeth.horckmans@vito.be,
+Maciej Zajac,Heidelberg Materials,maciej.zajac@heidelbergmaterials.com,
+Malene Thostrup Pedersen,NTNU,malene.t.pedersen@ntnu.no,
+Manuel Torres Carrasco,Universidad Carlos III de Madrid,matorres@ing.uc3m.es,
+Marcelo Gonzalez Hormazabal,Pontificia Universidad Catolica de Chile,magonza7@ing.puc.cl,
+Maria Angeles de la Torre,Universidad de Malaga,mgd@uma.es,
+Marta Palacios,IETcc-CSIC,marta.palacios@ietcc.csic.es,
+Miguel Angel Garcia Aranda,Universidad de Malaga,g_aranda@uma.es,
+Miren Etxeberria Larrañaga,Universitat Politècnica de Catalunya (UPC),miren.etxeberria@upc.edu,
+Mohend Chaouche,"CNRS, Universite Paris-Saclay (CONCERTO)",mohend.chaouche@ens-paris-saclay.fr,
+Narayanan Neithalath,Arizona State University,narayanan.neithalath@asu.edu,
+Neven Ukrainczyk,TU Darmstadt,ukrainczyk@wib.tu-darmstadt.de,
+Nombre,Afiliación,Correo electrónico,
+Paivo Kinnunen,University of Oulu,paivo.kinnunen@oulu.fi,
+Patrick Juilland,Sika Technology AG,juilland.patrick@ch.sika.com,
+Prannoy Suraneni,University of Miami,pxs631@miami.edu,
+Romain Dupuis,"CNRS, Montpellier",romain.dupuis@umontpellier.fr,
+Roman Nevshupa,IETcc-CSIC (CILANTRO),r.nevshupa@csic.es,
+Ruben Snellings,KU Leuven,ruben.snellings@kuleuven.be,
+Sergio Cirelli Angulo,"Universidade de Sao Paulo, Brazil",sergio.angulo@usp.br,
+Susan Bernal,University of Bath,sbl30@bath.ac.uk,YES
+Thomas Matschei,TU Braunschweig,t.matschei@ibmb.tu-bs.de,
+Torben Gadt,Technical University of Munich (TUM),	torben.gaedt@tum.de,
+Wang Wei,Southeast University,wang-wei@seu.edu.cn,
+Xu Linglin,Tongji University,xulinglinok@hotmail.com,
+Xuerun Li,BASF Construction Additives GmbH,xuerun.li@basf.com,
