@@ -563,12 +563,49 @@ h3 {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.committee-page-heading {
-  padding-bottom: 0;
+.subpage-navigation {
+  padding: 32px 0 0;
 }
 
-.committee-page-heading h1 {
-  max-width: 900px;
+.subpage-navigation + .section {
+  padding-top: 40px;
+}
+
+.subpage-navigation .committee-back-link {
+  margin-bottom: 0;
+}
+
+.accommodation-grid {
+  align-items: start;
+}
+
+.accommodation-card {
+  border-top: 3px solid var(--teal);
+}
+
+.accommodation-list {
+  margin-top: 1.2rem;
+  padding: 0;
+  list-style: none;
+}
+
+.accommodation-list li + li {
+  margin-top: 1.2rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--line);
+}
+
+.accommodation-list p {
+  margin-top: 0.45rem;
+  font-size: 0.88rem;
+}
+
+.accommodation-rate {
+  display: block;
+  margin-top: 0.45rem;
+  color: var(--blue-grey);
+  font-size: 0.82rem;
+  font-weight: 700;
 }
 
 .committee-back-link {
