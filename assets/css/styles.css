@@ -526,6 +526,7 @@ h3 {
 
 .program-list {
   display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
 }
 
@@ -540,6 +541,14 @@ h3 {
   display: block;
   margin-bottom: 0.35rem;
   color: var(--white);
+}
+
+.program-list span {
+  line-height: 1.45;
+}
+
+.program-page-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .speaker-placeholder {
@@ -817,6 +826,11 @@ h3 {
   .contact-grid {
     grid-template-columns: 1fr;
     gap: 34px;
+  }
+
+  .program-list,
+  .program-page-grid {
+    grid-template-columns: 1fr;
   }
 
   .hero-grid {
