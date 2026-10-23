@@ -432,10 +432,18 @@ h3 {
   text-align: center;
 }
 
-.collaborator-logo-ehu img,
 .collaborator-logo-photokrete img {
   width: 180px;
   height: 96px;
+  max-width: 100%;
+  max-height: none;
+  object-fit: cover;
+  object-position: center;
+}
+
+.collaborator-logo-ehu img {
+  width: 140px;
+  height: 100px;
   max-width: 100%;
   max-height: none;
   object-fit: cover;
@@ -640,6 +648,31 @@ h3 {
 .committee-chair {
   max-width: 560px;
   border-top: 3px solid var(--teal);
+}
+
+.submission-content {
+  max-width: 900px;
+}
+
+.submission-intro h1 {
+  margin-bottom: 1rem;
+}
+
+.submission-content ul {
+  margin: 1rem 0 0;
+  padding-left: 1.35rem;
+}
+
+.submission-content li + li {
+  margin-top: 0.7rem;
+}
+
+.submission-cta {
+  padding-bottom: 2rem;
+}
+
+.submission-cta .button {
+  margin-top: 0.75rem;
 }
 
 .site-nav a[aria-current="page"] {
