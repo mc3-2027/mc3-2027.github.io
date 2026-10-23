@@ -432,9 +432,10 @@ h3 {
   text-align: center;
 }
 
+.collaborator-logo-ehu img,
 .collaborator-logo-photokrete img {
-  width: 150px;
-  height: 86px;
+  width: 180px;
+  height: 96px;
   max-width: 100%;
   max-height: none;
   object-fit: cover;
