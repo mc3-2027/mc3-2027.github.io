@@ -432,6 +432,15 @@ h3 {
   text-align: center;
 }
 
+.collaborator-logo-photokrete img {
+  width: 150px;
+  height: 86px;
+  max-width: 100%;
+  max-height: none;
+  object-fit: cover;
+  object-position: center;
+}
+
 .card-grid,
 .committee-grid {
   display: grid;
