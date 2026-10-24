@@ -520,26 +520,11 @@ h3 {
 }
 
 .special-issue-banner {
-  padding: 1.75rem 0;
-  background: linear-gradient(90deg, rgba(47, 161, 137, 0.1), rgba(126, 180, 209, 0.13));
-  border-block: 1px solid var(--line);
+  padding: 0 0 5.5rem;
 }
 
 .special-issue-banner-inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
-}
-
-.special-issue-banner h2 {
-  margin-bottom: 0.55rem;
-  font-size: clamp(1.45rem, 2.5vw, 2rem);
-}
-
-.special-issue-banner p:last-child {
-  max-width: 760px;
-  margin-bottom: 0;
+  max-width: var(--container);
 }
 
 .venue-intro {
@@ -864,9 +849,7 @@ h3 {
   }
 
   .special-issue-banner-inner {
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 1rem;
+    max-width: calc(100% - 40px);
   }
 
   .hero-grid {
