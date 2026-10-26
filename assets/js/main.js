@@ -14,3 +14,15 @@ if (navToggle && siteNav) {
     }
   });
 }
+
+if (window.location.hash === "#special-issue") {
+  const specialIssue = document.getElementById("special-issue");
+  if (specialIssue) {
+    requestAnimationFrame(() => {
+      window.scrollTo({
+        top: specialIssue.getBoundingClientRect().top + window.scrollY - 96,
+        behavior: "instant",
+      });
+    });
+  }
+}
