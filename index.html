@@ -21,13 +21,18 @@
 
     <header class="site-header" data-header>
       <div class="container header-inner">
-        <a class="brand" href="#home" aria-label="3MC3 home">
-          <img
-            src="assets/img/mc3-logo-horizontal.png"
-            alt="3MC3 Bilbao"
-            class="brand-logo"
-          />
-        </a>
+        <div class="brand-lockup">
+          <a class="brand" href="#home" aria-label="3MC3 home">
+            <img
+              src="assets/img/mc3-logo-horizontal.png"
+              alt="3MC3 Bilbao"
+              class="brand-logo"
+            />
+          </a>
+          <a class="rilem-logo-link" href="https://www.rilem.net/" target="_blank" rel="noopener" aria-label="RILEM">
+            <img src="assets/img/rilem-logo.png" alt="RILEM" />
+          </a>
+        </div>
 
         <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
           <span></span>
@@ -56,14 +61,19 @@
         <div class="container hero-grid">
           <div class="hero-copy">
             <p class="eyebrow">Bilbao · 13–16 September 2027</p>
-            <h1>3MC3: 3rd International Conference on Mineral Carbonation for Cement and Concrete</h1>
+            <h1>3MC3: 3rd RILEM International Conference on Mineral Carbonation for Cement and Concrete</h1>
             <p class="hero-lede">
               The third conference in a growing international series on CO2 mineralization,
               carbonation chemistry, cement-based materials, and low-carbon binder research.
             </p>
           </div>
           <div class="hero-visual" aria-label="Conference visual identity">
-            <img src="assets/img/mc3-logo-main.png" alt="3MC3 Bilbao logo" />
+            <div class="hero-logo-stack">
+              <img class="hero-mc3-logo" src="assets/img/mc3-logo-main.png" alt="3MC3 Bilbao logo" />
+              <a href="https://www.rilem.net/" target="_blank" rel="noopener" aria-label="RILEM">
+                <img class="hero-rilem-wordmark" src="assets/img/rilem-wordmark.png" alt="RILEM" />
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -397,7 +407,12 @@
 
     <footer class="site-footer">
       <div class="container footer-inner">
-        <img src="assets/img/mc3-logo-horizontal.png" alt="3MC3 Bilbao" />
+        <div class="footer-logos">
+          <img class="footer-mc3-logo" src="assets/img/mc3-logo-horizontal.png" alt="3MC3 Bilbao" />
+          <a href="https://www.rilem.net/" target="_blank" rel="noopener" aria-label="RILEM">
+            <img class="footer-rilem-logo" src="assets/img/rilem-logo.png" alt="RILEM" />
+          </a>
+        </div>
         <p>
           3MC3 · International Conference on Mineral Carbonation for Cement and Concrete
         </p>
