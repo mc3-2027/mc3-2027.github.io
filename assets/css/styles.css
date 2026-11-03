@@ -134,8 +134,8 @@ li + li {
 
 .rilem-logo-link img {
   display: block;
-  width: 44px;
-  height: 56px;
+  width: 55px;
+  height: 70px;
   object-fit: contain;
 }
 
@@ -334,12 +334,12 @@ h3 {
 
 .hero-mc3-logo {
   width: 100%;
-  transform: scale(1.08);
+  transform: translateY(-0.5rem) scale(1.08);
 }
 
 .hero-rilem-wordmark {
   display: block;
-  width: min(38%, 220px);
+  width: min(32.3%, 187px);
   height: auto;
   margin: 0.85rem auto 0;
 }
@@ -816,8 +816,8 @@ h3 {
 
 .footer-rilem-logo {
   display: block;
-  width: 52px;
-  height: 66px;
+  width: 65px;
+  height: 83px;
   object-fit: contain;
 }
 
