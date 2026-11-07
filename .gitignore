@@ -1,0 +1,7 @@
+*.csv
+/docs
+*.png
+*.xlsx
+*.md
+*.docx
+*.doc
